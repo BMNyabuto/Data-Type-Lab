@@ -18,3 +18,6 @@ def data_type(n):
 			return 'Equal to 100'
 		else:
 			return 'more than 100'
+	else:
+		if (isinstance (n, str)) == True:
+			return len(n)
