@@ -11,3 +11,10 @@ def data_type(n):
 		return True
 	elif n == False:
 		return False
+	elif (isinstance (n, int)) == True:
+		if n < 100:
+			return 'less than 100'
+		elif n == 100:
+			return 'Equal to 100'
+		else:
+			return 'more than 100'
