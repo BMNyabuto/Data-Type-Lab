@@ -5,4 +5,9 @@ def data_type(n):
 			return x
 		except:
 			return None
-			
+	elif n == None:
+		return 'no value'
+	elif n == True:
+		return True
+	elif n == False:
+		return False
